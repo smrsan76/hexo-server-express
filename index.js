@@ -12,7 +12,7 @@ hexo.config.server = assign({
     header: true
 }, hexo.config.server);
 
-hexo.extend.console.register('server', 'Start the server.', {
+hexo.extend.console.register('server-express', 'Start the server.', {
     desc: 'Start the server and watch for file changes.',
     options: [
         {name: '-i, --ip', desc: 'Override the default server IP. Bind to all IP address by default.'},
