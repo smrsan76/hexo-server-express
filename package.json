@@ -1,6 +1,6 @@
 {
   "name": "hexo-server-express",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "It's similar to \"hexo-server\" package, but it uses express instead of connect",
   "main": "index.js",
   "scripts": {
